@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="d3/d3.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dead of Winter Kill Counter</title>
+        <link rel="stylesheet" href="css/main.css"/>
+                <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body>
+        <div id="gradient">
+        <h1>Dead of Winter <br/> Kill Counter</h1>
+            <div id="header"></div>
+        </div>
+        <div id="intro">
+    
+            <p id="summary">Dead of Winter is a strategic board game set in a post-apocalyptic zombie infested colony. Players are faction leaders who must work together to ensure the colonies survival, whilst still accomplishing their own secret objectives at all costs. Beware starvation, beware the undead, and most importantly, beware the traitor!</p>
+
+        </div>
+
+        <div class="container">
+            <h1>Enter your zombie kills for each round:</h1>
+            <input type="text" id="killCount" name="killCount" placeholder="3, 5, 2, 7, etc">
+            <input type="submit" id="vis" value="Visualize">
+        </div>
+        <div class="chart container">
+        </div>
+    </body>
+</html>
